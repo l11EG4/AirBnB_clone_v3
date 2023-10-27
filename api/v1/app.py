@@ -14,7 +14,7 @@ cors = CORS(app, resources={"/*": {"origins": "0.0.0.0"}})
 
 @app.teardown_appcontext
 def teardown_appcontext(code):
-    """teardown_appcontext."""
+    """teardown_appcontext"""
     storage.close()
 
 
