@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """states.py"""
-"""by laila and mega"""
 
 from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
