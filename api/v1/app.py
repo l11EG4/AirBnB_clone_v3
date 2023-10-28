@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""app.py to connects to API"""
+"""app.py to connect to API"""
 import os
 from models import storage
 from api.v1.views import app_views
@@ -25,3 +25,4 @@ def page_not_found(error):
 if __name__ == "__main__":
     app.run(host=os.getenv('HBNB_API_HOST', '0.0.0.0'),
             port=int(os.getenv('HBNB_API_PORT', '5000')))
+
